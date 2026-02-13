@@ -32,5 +32,5 @@ O **ClimaX1** é uma aplicação Java Web desenvolvida para fornecer previsões 
 
 ---
 
-### 💡 Conexão com o "Conceito 1" (Observação de Dados)
-Este projeto demonstra a habilidade de capturar dados brutos de fontes governamentais externas e tratá-los para uma observação clara e útil. No meu **Conceito 1**, o ClimaX1 atua como a interface que traduz códigos técnicos e siglas complexas em informações visuais que auxiliam o planejamento diário do usuário, reforçando o papel da tecnologia como suporte à decisão.
+### 💡 Considerações
+Este projeto demonstra a habilidade de capturar dados brutos de fontes governamentais externas e tratá-los para uma observação clara e útil. O ClimaX1 atua como a interface que traduz códigos técnicos e siglas complexas em informações visuais que auxiliam o planejamento diário do usuário, reforçando o papel da tecnologia como suporte à decisão.
