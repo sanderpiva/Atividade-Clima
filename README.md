@@ -1,11 +1,36 @@
-<h1>Atividade Clima</h1>
+# 🌤️ ClimaX1: Previsão do Tempo com API INPE
 
-<p>Usando a API do INPE, por meio do código demonstrado em aula, foi desenvolvida uma aplicação de clima chamada ClimaX1.</p>
+O **ClimaX1** é uma aplicação Java Web desenvolvida para fornecer previsões meteorológicas precisas consumindo dados oficiais do **INPE (Instituto Nacional de Pesquisas Espaciais)**. A solução oferece uma interface intuitiva para consulta de previsões estendidas por cidade e estado.
 
-<p>A aplicação permite que o usuário insira o nome da cidade e estado para visualizar a previsão do tempo para 6 ou 7 dias. Foi criada uma visualização distinta para o clima do dia atual.</p>
+## 🎯 Funcionalidades
+* **Consulta Customizada:** O usuário insere cidade e estado para obter dados em tempo real.
+* **Previsão Estendida:** Exibição detalhada do clima para os próximos 6 ou 7 dias.
+* **Destaque do Dia:** Visualização distinta e priorizada para as condições climáticas do dia atual.
+* **Interpretador de Condições:** Mapeamento inteligente de siglas técnicas do CPTEC/INPE (ex: 'pn', 'n') para descrições amigáveis ao usuário.
 
-<p>A API do INPE retorna as condições climáticas em siglas (por exemplo, pn, n, etc.). Para interpretar essas siglas, o endereço http://servicos.cptec.inpe.br/XML/ foi consultado e um mapeamento de chave-valor estabelecido na aplicação. Para este projeto, foram utilizados Tailwind CSS para estilização e um Servlet Tomcat.</p>
+---
 
-<p>Para executar o projeto, clique com o botão direito sobre ele no ambiente de desenvolvimento (Ex: Eclipse), selecione 'Run As' e, em seguida, 'Run on Server'. Seu navegador abrirá a aplicação Java.</p>
+## 🛠️ Stack Tecnológica
+* **Linguagem:** Java (Servlet Tomcat).
+* **Frontend:** Tailwind CSS para um design responsivo e moderno.
+* **Integração:** Consumo de API XML do INPE/CPTEC.
+* **Ambiente sugerido:** Eclipse IDE.
 
-<h4>Dupla: Salomão Ferreira Júnior e Sander Gustavo Piva</h4>
+---
+
+## 🚀 Como Executar
+1. Importe o projeto em seu ambiente de desenvolvimento Java (ex: Eclipse).
+2. Certifique-se de ter um servidor **Tomcat** configurado.
+3. Clique com o botão direito no projeto > **Run As** > **Run on Server**.
+4. A aplicação abrirá automaticamente no seu navegador padrão.
+
+---
+
+## 👥 Desenvolvedores
+* Salomão Ferreira Júnior
+* **Sander Gustavo Piva**
+
+---
+
+### 💡 Conexão com o "Conceito 1" (Observação de Dados)
+Este projeto demonstra a habilidade de capturar dados brutos de fontes governamentais externas e tratá-los para uma observação clara e útil. No meu **Conceito 1**, o ClimaX1 atua como a interface que traduz códigos técnicos e siglas complexas em informações visuais que auxiliam o planejamento diário do usuário, reforçando o papel da tecnologia como suporte à decisão.
